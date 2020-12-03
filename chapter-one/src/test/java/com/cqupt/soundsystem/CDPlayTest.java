@@ -21,7 +21,6 @@ public class CDPlayTest {
 
     @Autowired
     private MediaPlayer player;
-    ;
 
     @Test
     public void cdShouldNotBeNull() {

@@ -1,6 +1,6 @@
 package com.cqupt.soundsystem;
 
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -8,6 +8,15 @@ import org.springframework.context.annotation.Configuration;
  * @date 2020/12/3 15:44
  */
 @Configuration
-@ComponentScan
+//@ComponentScan
 public class CDPlayerConfig {
+    @Bean
+    public CompactDisc sgtPeppers() {
+        return new SgtPeppers();
+    }
+
+    @Bean
+    public MediaPlayer cdPlayer(CompactDisc compactDisc) {
+        return new CDPlayer(compactDisc);
+    }
 }

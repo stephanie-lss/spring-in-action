@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8a4396a7-2785-48df-89fc-67c6438f2f67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/ContextTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CDPlayerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/CDPlayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/CDPlayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/ContextTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CDPlayerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CDPlayerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/test-classes/com/cqupt/soundsystem/CDPlayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/test-classes/com/cqupt/soundsystem/CDPlayTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +28,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +42,13 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/ls/Test.java" />
+      </list>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -55,6 +70,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chapter-one" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
@@ -70,7 +96,65 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1l8O2ikYhv24NeNxxOaEpkBWidA" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="543" />
+    <option name="y" value="353" />
+    <option name="width" value="1084" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectId" id="1l9FTs0RqCkgDYnFNal9h62T7yS" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cqupt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,6 +163,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -92,21 +178,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2720588" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.CDPlayTest.play">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,53 +227,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="chapter-one" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="chapter-one" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CDPlayTest.play" />
@@ -209,52 +246,71 @@
       <option name="presentableId" value="Default" />
       <updated>1606574949043</updated>
       <workItem from="1606574953419" duration="746000" />
-      <workItem from="1606917722685" duration="700000" />
-      <workItem from="1606975047654" duration="86000" />
-      <workItem from="1606975156031" duration="4648000" />
+      <workItem from="1606917722685" duration="2356000" />
+      <workItem from="1607001418151" duration="4627000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3102000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="543" y="353" width="1084" height="1011" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25588235" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32941177" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser" timestamp="1606985701000">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1160@0.40.1920.1160" timestamp="1606985701000" />
-    <state x="740" y="375" key="FileChooserDialogImpl" timestamp="1606975192855">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="740" y="375" key="FileChooserDialogImpl/0.40.1920.1160@0.40.1920.1160" timestamp="1606975192855" />
-    <state width="1873" height="232" key="GridCell.Tab.0.bottom" timestamp="1606981997188">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="232" key="GridCell.Tab.0.bottom/0.40.1920.1160@0.40.1920.1160" timestamp="1606981997188" />
-    <state width="1873" height="232" key="GridCell.Tab.0.center" timestamp="1606981997188">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="232" key="GridCell.Tab.0.center/0.40.1920.1160@0.40.1920.1160" timestamp="1606981997188" />
-    <state width="1873" height="232" key="GridCell.Tab.0.left" timestamp="1606981997187">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="232" key="GridCell.Tab.0.left/0.40.1920.1160@0.40.1920.1160" timestamp="1606981997187" />
-    <state width="1873" height="232" key="GridCell.Tab.0.right" timestamp="1606981997188">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="232" key="GridCell.Tab.0.right/0.40.1920.1160@0.40.1920.1160" timestamp="1606981997188" />
-    <state x="887" y="349" key="Maven.ArtifactSearchDialog" timestamp="1606985899183">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="887" y="349" key="Maven.ArtifactSearchDialog/0.40.1920.1160@0.40.1920.1160" timestamp="1606985899183" />
-    <state x="351" y="280" key="new project wizard" timestamp="1606975218558">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="351" y="280" key="new project wizard/0.40.1920.1160@0.40.1920.1160" timestamp="1606975218558" />
-    <state x="1248" y="443" width="672" height="678" key="search.everywhere.popup" timestamp="1606981359114">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="1248" y="443" width="672" height="678" key="search.everywhere.popup/0.40.1920.1160@0.40.1920.1160" timestamp="1606981359114" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/ls/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-one/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
