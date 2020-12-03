@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a4396a7-2785-48df-89fc-67c6438f2f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/chapter-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/chapter-one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/CDPlayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/CDPlayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,7 +97,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CDPlayTest.play">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -134,6 +122,22 @@
       <option name="PACKAGE_NAME" value="com.cqupt.soundsystem" />
       <option name="MAIN_CLASS_NAME" value="com.cqupt.soundsystem.CDPlayTest" />
       <option name="METHOD_NAME" value="cdShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CDPlayTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqupt.soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqupt.soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.soundsystem.CDPlayTest" />
+      <option name="METHOD_NAME" value="play" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CDPlayTest.play" />
         <item itemvalue="JUnit.CDPlayTest.cdShouldNotBeNull" />
       </list>
     </recent_temporary>
@@ -206,7 +211,7 @@
       <workItem from="1606574953419" duration="746000" />
       <workItem from="1606917722685" duration="700000" />
       <workItem from="1606975047654" duration="86000" />
-      <workItem from="1606975156031" duration="2762000" />
+      <workItem from="1606975156031" duration="4648000" />
     </task>
     <servers />
   </component>
@@ -214,10 +219,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser" timestamp="1606981319263">
+    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser" timestamp="1606985701000">
       <screen x="0" y="40" width="1920" height="1160" />
     </state>
-    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1160@0.40.1920.1160" timestamp="1606981319263" />
+    <state x="1448" y="430" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1160@0.40.1920.1160" timestamp="1606985701000" />
     <state x="740" y="375" key="FileChooserDialogImpl" timestamp="1606975192855">
       <screen x="0" y="40" width="1920" height="1160" />
     </state>
@@ -238,10 +243,10 @@
       <screen x="0" y="40" width="1920" height="1160" />
     </state>
     <state width="1873" height="232" key="GridCell.Tab.0.right/0.40.1920.1160@0.40.1920.1160" timestamp="1606981997188" />
-    <state x="887" y="349" key="Maven.ArtifactSearchDialog" timestamp="1606981862844">
+    <state x="887" y="349" key="Maven.ArtifactSearchDialog" timestamp="1606985899183">
       <screen x="0" y="40" width="1920" height="1160" />
     </state>
-    <state x="887" y="349" key="Maven.ArtifactSearchDialog/0.40.1920.1160@0.40.1920.1160" timestamp="1606981862844" />
+    <state x="887" y="349" key="Maven.ArtifactSearchDialog/0.40.1920.1160@0.40.1920.1160" timestamp="1606985899183" />
     <state x="351" y="280" key="new project wizard" timestamp="1606975218558">
       <screen x="0" y="40" width="1920" height="1160" />
     </state>
