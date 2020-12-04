@@ -5,14 +5,12 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author LiSheng
- * @date 2020/12/3 15:44
+ * @date 2020/12/4 14:28
  */
 @Configuration
-//@ComponentScan
-//@Import(CDConfig.class)
-public class CDPlayerConfig {
+public class CDConfig {
     @Bean
-    public MediaPlayer cdPlayer(CompactDisc compactDisc) {
-        return new CDPlayer(compactDisc);
+    public CompactDisc sgtPeppers() {
+        return new SgtPeppers();
     }
 }

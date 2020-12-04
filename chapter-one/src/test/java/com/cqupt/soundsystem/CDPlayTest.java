@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNotNull;
  * @date 2020/12/3 15:49
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = CDPlayerConfig.class)
+@ContextConfiguration(classes = SoundSystemConfig.class)
 public class CDPlayTest {
 
     @Autowired
