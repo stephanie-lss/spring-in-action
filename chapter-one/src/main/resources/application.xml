@@ -1,6 +1,2 @@
-<bean class="类名"/>
 
-<bean id = "cdPlayer" class = "soundsystem.CDPlayer">
-    <constructor-arg ref = "compactDisc"/>
-</bean>
 
