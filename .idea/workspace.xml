@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a4396a7-2785-48df-89fc-67c6438f2f67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SoundSystemConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SoundSystemConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/chapter-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/chapter-one.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/BlankDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SgtPeppers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/BlankDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/BlankDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CompactDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/SgtPeppers.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/SgtPeppers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/target/test-classes/com/cqupt/soundsystem/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Aspect" />
       </list>
     </option>
   </component>
@@ -100,13 +115,21 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.soundsystem.Test" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cqupt.concert" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.test.aspectj" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PerformanceTest.perform">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.concert.Test" />
       <module name="chapter-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cqupt.soundsystem.*" />
+          <option name="PATTERN" value="com.cqupt.concert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,46 +137,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDPlayTest.cdShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTest.testPerform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cqupt.soundsystem.*" />
+          <option name="PATTERN" value="com.cqupt.concert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cqupt.soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.soundsystem.CDPlayTest" />
-      <option name="METHOD_NAME" value="cdShouldNotBeNull" />
+      <option name="PACKAGE_NAME" value="com.cqupt.concert" />
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.concert.DemoTest" />
+      <option name="METHOD_NAME" value="testPerform" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDPlayTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTest.testPerform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cqupt.soundsystem.*" />
+          <option name="PATTERN" value="com.test.aspectj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cqupt.soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="com.cqupt.soundsystem.CDPlayTest" />
-      <option name="METHOD_NAME" value="play" />
+      <option name="PACKAGE_NAME" value="com.test.aspectj" />
+      <option name="MAIN_CLASS_NAME" value="com.test.aspectj.DemoTest" />
+      <option name="METHOD_NAME" value="testPerform" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerformanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqupt.concert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqupt.concert" />
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.concert.PerformanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerformanceTest.perform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqupt.concert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqupt.concert" />
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.concert.PerformanceTest" />
+      <option name="METHOD_NAME" value="perform" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,9 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.CDPlayTest.play" />
-        <item itemvalue="JUnit.CDPlayTest.cdShouldNotBeNull" />
+        <item itemvalue="JUnit.PerformanceTest.perform" />
+        <item itemvalue="JUnit.DemoTest.testPerform (1)" />
+        <item itemvalue="JUnit.PerformanceTest" />
+        <item itemvalue="JUnit.DemoTest.testPerform" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,41 +236,12 @@
       <workItem from="1606917722685" duration="2356000" />
       <workItem from="1607001418151" duration="4627000" />
       <workItem from="1607059621674" duration="9406000" />
+      <workItem from="1607237217131" duration="16003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1033" y="370" key="#com.intellij.ide.util.MemberChooser" timestamp="1607061009296">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="1033" y="370" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1160@0.40.1920.1160" timestamp="1607061009296" />
-    <state width="1873" height="479" key="GridCell.Tab.0.bottom" timestamp="1607148631058">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="479" key="GridCell.Tab.0.bottom/0.40.1920.1160@0.40.1920.1160" timestamp="1607148631058" />
-    <state width="1873" height="479" key="GridCell.Tab.0.center" timestamp="1607148631058">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="479" key="GridCell.Tab.0.center/0.40.1920.1160@0.40.1920.1160" timestamp="1607148631058" />
-    <state width="1873" height="479" key="GridCell.Tab.0.left" timestamp="1607148631058">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="479" key="GridCell.Tab.0.left/0.40.1920.1160@0.40.1920.1160" timestamp="1607148631058" />
-    <state width="1873" height="479" key="GridCell.Tab.0.right" timestamp="1607148631058">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="1873" height="479" key="GridCell.Tab.0.right/0.40.1920.1160@0.40.1920.1160" timestamp="1607148631058" />
-    <state width="498" height="453" key="SwitcherDM" timestamp="1607063358553">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state width="498" height="453" key="SwitcherDM/0.40.1920.1160@0.40.1920.1160" timestamp="1607063358553" />
-    <state x="351" y="280" key="new project wizard" timestamp="1607069694325">
-      <screen x="0" y="40" width="1920" height="1160" />
-    </state>
-    <state x="351" y="280" key="new project wizard/0.40.1920.1160@0.40.1920.1160" timestamp="1607069694325" />
   </component>
   <component name="masterDetails">
     <states>
