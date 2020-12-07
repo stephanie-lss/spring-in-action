@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a4396a7-2785-48df-89fc-67c6438f2f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/RootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/SpitterWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/RootConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/SpitterWebAppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/chapter-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/chapter-one.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/BlankDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/soundsystem/SgtPeppers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/src/main/resources/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/src/test/java/com/cqupt/soundsystem/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/BlankDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/BlankDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/CompactDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/SgtPeppers.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/soundsystem/SgtPeppers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/target/test-classes/com/cqupt/soundsystem/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Aspect" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,11 +106,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2720588" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cqupt.spittr.config" />
       <recent name="com.cqupt.concert" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -137,13 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,7 +211,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PerformanceTest.perform" />
-        <item itemvalue="JUnit.DemoTest.testPerform (1)" />
         <item itemvalue="JUnit.PerformanceTest" />
         <item itemvalue="JUnit.DemoTest.testPerform" />
         <item itemvalue="Application.Test (1)" />
@@ -237,6 +233,7 @@
       <workItem from="1607001418151" duration="4627000" />
       <workItem from="1607059621674" duration="9406000" />
       <workItem from="1607237217131" duration="16003000" />
+      <workItem from="1607309970897" duration="2734000" />
     </task>
     <servers />
   </component>
