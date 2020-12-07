@@ -4,12 +4,14 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/application.xml</file>
-        </fileset>
-        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/cqupt/soundsystem/CDConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/cqupt/soundsystem/CDPlayerConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/cqupt/concert/ConcertConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/cqupt/spitter/config/RootConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/cqupt/soundsystem/SoundSystemConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/cqupt/soundsystem/TrackCounterConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/cqupt/spitter/config/WebConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/resources/application.xml</file>
         </fileset>
       </configuration>
     </facet>

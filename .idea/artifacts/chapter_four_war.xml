@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chapter-four:war">
+    <output-path>$PROJECT_DIR$/chapter-four/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chapter-four</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chapter-four-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chapter-four:war exploded" />
+    </root>
+  </artifact>
+</component>

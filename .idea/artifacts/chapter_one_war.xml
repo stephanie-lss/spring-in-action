@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chapter-one:war">
+    <output-path>$PROJECT_DIR$/chapter-one/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chapter-one</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spitter-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chapter-one:war exploded" />
+    </root>
+  </artifact>
+</component>

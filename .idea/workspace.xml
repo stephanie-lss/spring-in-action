@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a4396a7-2785-48df-89fc-67c6438f2f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/RootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/SpitterWebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/RootConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/SpitterWebAppInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-one/target/classes/com/cqupt/spitter/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter_four_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter_four_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter_one_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter_one_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-one/chapter-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/chapter-one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/RootConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/SpitterWebAppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-one/src/main/java/com/cqupt/spitter/config/WebConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,19 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoTest.testPerform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter-one" />
       <extension name="coverage">
@@ -208,6 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.PerformanceTest" />
+      <item itemvalue="JUnit.DemoTest.testPerform" />
+      <item itemvalue="JUnit.PerformanceTest.perform" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PerformanceTest.perform" />
