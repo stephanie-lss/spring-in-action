@@ -12,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 import org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;
 import org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import org.springframework.web.servlet.view.JstlView;
 
 /**
  * @author LiSheng
@@ -27,14 +28,19 @@ public class WebConfig extends WebMvcConfigurationSupport {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".jsp");
+        viewResolver.setViewClass(JstlView.class);
         return viewResolver;
     }
+
+
     @Bean
     public HandlerAdapter handlerAdapter() {
         return new SimpleControllerHandlerAdapter();
     }
+
     @Bean
     public HandlerMapping handlerMapping() {
         return new BeanNameUrlHandlerMapping();
     }
+
 }
